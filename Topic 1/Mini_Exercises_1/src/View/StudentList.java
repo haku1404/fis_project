@@ -1,17 +1,14 @@
-package View;
-import Controller.StudentController;
-import Model.Student;
+package view;
+import controller.StudentController;
+import model.Student;
 
-import java.sql.Date;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class StudentList {
     StudentController control = new StudentController();
-    public final int MAX=100;
+    public final int MAX = 100;
     private Student[] student;
     private int count;
     private ISortStrategy  sortStrategy;

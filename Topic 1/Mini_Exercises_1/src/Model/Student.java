@@ -1,5 +1,4 @@
-package Model;
-import java.sql.Date;
+package model;
 
 public class Student {
     private int code;

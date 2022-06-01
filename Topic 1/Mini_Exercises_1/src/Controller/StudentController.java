@@ -1,5 +1,5 @@
-package Controller;
-import Model.Student;
+package controller;
+import model.Student;
 import java.util.ArrayList;
 
 public class StudentController {
