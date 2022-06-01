@@ -15,8 +15,9 @@ public class StudentList {
     private Student[] student;
     private int count;
     private ISortStrategy  sortStrategy;
-    static Student st = new Student();
+
     static List<Student> list = new ArrayList<>();
+
     public void addStudent(ArrayList<Student> listStudent) throws ParseException {
         int code = getCode();
         String name = getName();
@@ -25,6 +26,28 @@ public class StudentList {
         control.addStudent(listStudent, student);
 
 
+    }
+
+    public void removeStudent(){
+        int code = getCode();
+        Student student = control.getStudentByCode(code);
+        if(student == null){
+            System.out.println("Not Found!");
+        }else{
+            control.removeStudent(student);
+            System.out.println("Delete Successful!");
+        }
+    }
+
+    void display(ArrayList<Student> listStudent){
+        for (Student student: listStudent
+             ) {
+            System.out.println(student);
+        }
+    }
+
+    void sort(ArrayList<Student> listStudent){
+        control.sort(listStudent);
     }
 
     private String getBirthDate() {
