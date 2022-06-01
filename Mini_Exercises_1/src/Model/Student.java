@@ -4,7 +4,7 @@ import java.sql.Date;
 public class Student {
     private int code;
     private String name;
-    Date birthDate;
+    private String birthDate;
 
     /**
      * Constructor with no parameter
@@ -18,7 +18,7 @@ public class Student {
      * @param name
      * @param birthDate
      */
-    public Student(int code, String name, Date birthDate) {
+    public Student(int code, String name, String birthDate) {
         this.code = code;
         this.name = name;
         this.birthDate = birthDate;
@@ -70,7 +70,7 @@ public class Student {
      *
      * @return date of birth
      */
-    public Date getBirthDate() {
+    public String getBirthDate() {
         return birthDate;
     }
 
@@ -79,7 +79,7 @@ public class Student {
      * @param birthDate
      * @throws Exception
      */
-    public void setBirthDate(Date birthDate) throws Exception {
+    public void setBirthDate(String birthDate) throws Exception {
         if(birthDate != null) {
             this.birthDate = birthDate;
         }else{
