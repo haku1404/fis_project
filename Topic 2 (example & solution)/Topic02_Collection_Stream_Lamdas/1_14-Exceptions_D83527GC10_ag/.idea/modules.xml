@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/1_14-Exceptions_D83527GC10_ag.iml" filepath="$PROJECT_DIR$/.idea/1_14-Exceptions_D83527GC10_ag.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercises/Exercise1/Exercise1.iml" filepath="$PROJECT_DIR$/Exercises/Exercise1/Exercise1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercises/Exercises.iml" filepath="$PROJECT_DIR$/Exercises/Exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practices/Practices.iml" filepath="$PROJECT_DIR$/Practices/Practices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solutions/Solutions.iml" filepath="$PROJECT_DIR$/Solutions/Solutions.iml" />
+    </modules>
+  </component>
+</project>
