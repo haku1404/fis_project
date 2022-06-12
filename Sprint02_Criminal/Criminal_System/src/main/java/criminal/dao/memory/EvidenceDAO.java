@@ -31,7 +31,8 @@ public class EvidenceDAO implements IEvidenceDAO {
     }
 
     @Override
-    public void delete(Evidence evidence) {
+    public void delete(long id) {
 
     }
+
 }

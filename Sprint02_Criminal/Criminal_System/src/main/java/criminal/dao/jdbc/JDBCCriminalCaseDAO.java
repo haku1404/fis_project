@@ -29,7 +29,14 @@ public class JDBCCriminalCaseDAO extends DBContext implements ICriminalCaseDAO  
 
     @Override
     public void delete(long id) {
-
+        try {
+            String sql = "DELETE FROM criminal_case where id = ?";
+            PreparedStatement stm = connection.prepareStatement(sql);
+            stm.setLong(1, id);
+            stm.executeUpdate();
+        } catch (Exception ex) {
+            logger.error(ex.toString());
+        }
     }
 
     @Override
@@ -123,11 +130,31 @@ public class JDBCCriminalCaseDAO extends DBContext implements ICriminalCaseDAO  
 
     @Override
     public void update(CriminalCase criminalCase) {
+        try {
+            String sql = "UPDATE criminal_case\n"
+                    + "   SET version = ?\n"
+                    + "      ,createdAt = ?\n"
+                    + "      ,createdAt = ?\n"
+                    + "      ,modifiedAt = ?\n"
+                    + "      ,number = ?\n"
+                    + "      ,shortDescription = ?\n"
+                    + "      ,longDescription = ?\n"
+                    + "      ,notes = ?\n"
+                    + " WHERE id = ?";
+            PreparedStatement stm = connection.prepareStatement(sql);
+            stm.setLong(7, criminalCase.getId());
+            stm.setInt(1, criminalCase.getVersion());
+            stm.setString(2, criminalCase.getCreatedAt().toString());
+            stm.setString(3, criminalCase.getModifiedAt().toString());
+            stm.setString(4, criminalCase.getNumber());
+            stm.setString(5, criminalCase.getShortDescription());
+            stm.setString(6, criminalCase.getDetailedDescription());
+            stm.setString(7, criminalCase.getNotes());
+            stm.executeUpdate();
+        } catch (Exception ex) {
+            logger.error(ex.toString());
+        }
 
     }
 
-    @Override
-    public void delete(CriminalCase criminalCase) {
-
-    }
 }
