@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51a62976-5996-4f27-8535-e40764f7f0da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Mini_Exercise01/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mini_Exercise01/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mini_Exercise01/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mini_Exercise01/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mini_Exercise01/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mini_Exercise01/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mini_Exercise01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mini_Exercise01/src/main/java/org/example/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mini_Exercise01/src/main/java/org/example/ReadExcelExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mini_Exercise01/src/main/java/org/example/WriteExcelExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mini_Exercise01/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ReadTransactionExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="51a62976-5996-4f27-8535-e40764f7f0da" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Desktop/FIS/fis_project/Topic 03/Mini_Exercise01",
+    "last_opened_file_path": "D:/Desktop/FIS/fresher-jdbc-mysql-demo/fresher-jdbc-mysql-demo",
     "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
