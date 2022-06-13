@@ -134,7 +134,6 @@ public class JDBCCriminalCaseDAO extends DBContext implements ICriminalCaseDAO  
             String sql = "UPDATE criminal_case\n"
                     + "   SET version = ?\n"
                     + "      ,createdAt = ?\n"
-                    + "      ,createdAt = ?\n"
                     + "      ,modifiedAt = ?\n"
                     + "      ,number = ?\n"
                     + "      ,shortDescription = ?\n"

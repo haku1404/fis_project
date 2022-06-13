@@ -6,21 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="c734f0f2-1de3-4f27-a6e7-d4f0d5facd18" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/criminal/dao/ICriminalCaseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/ICriminalCaseDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/criminal/dao/IDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/IDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/data/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/data/data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/criminal/dao/jdbc/JDBCCriminalCaseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/jdbc/JDBCCriminalCaseDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/criminal/dao/jdbc/JDBCDetectiveDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/jdbc/JDBCDetectiveDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/criminal/dao/memory/CriminalCaseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/memory/CriminalCaseDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/criminal/dao/memory/DetectiveDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/memory/DetectiveDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/criminal/dao/memory/EvidenceDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/memory/EvidenceDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/criminal/model/CriminalCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/criminal/model/CriminalCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/criminal/model/Detective.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/criminal/model/Detective.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/criminal/dao/jdbc/JDBCCriminalCaseDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/criminal/dao/jdbc/JDBCCriminalCaseDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/criminal/dao/ICriminalCaseDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/criminal/dao/ICriminalCaseDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/criminal/dao/IDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/criminal/dao/IDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/criminal/dao/jdbc/JDBCCriminalCaseDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/criminal/dao/jdbc/JDBCCriminalCaseDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/criminal/dao/jdbc/JDBCDetectiveDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/criminal/dao/jdbc/JDBCDetectiveDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/criminal/dao/memory/CriminalCaseDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/criminal/dao/memory/CriminalCaseDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/criminal/dao/memory/DetectiveDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/criminal/dao/memory/DetectiveDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/criminal/dao/memory/EvidenceDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/criminal/dao/memory/EvidenceDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/criminal/model/CriminalCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/criminal/model/CriminalCase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/criminal/dao/jdbc/JDBCCriminalCaseDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/criminal/dao/jdbc/JDBCCriminalCaseDAOTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -55,7 +47,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "D:/Desktop/FIS/fis_project/Sprint02_Criminal/Criminal_System/src/test/resources",
+    "last_opened_file_path": "D:/Desktop/FIS/fis_project/Sprint02_Criminal/Criminal_System",
     "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
@@ -71,42 +63,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="criminal.dao.memory" />
       <recent name="criminal.dao.jdbc" />
+      <recent name="criminal.dao.memory" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JDBCCriminalCaseDAOTest">
-    <configuration name="JDBCCriminalCaseDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Criminal_System" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="criminal.dao.jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="criminal.dao.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="criminal.dao.jdbc.JDBCCriminalCaseDAOTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JDBCCriminalCaseDAOTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Criminal_System" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="criminal.dao.jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="criminal.dao.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="criminal.dao.jdbc.JDBCCriminalCaseDAOTest" />
-      <option name="METHOD_NAME" value="delete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JDBCDetectiveDAOTest.update">
     <configuration name="JDBCCriminalCaseDAOTest.getById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Criminal_System" />
       <extension name="coverage">
@@ -123,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDBCCriminalCaseDAOTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JDBCDetectiveDAOTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Criminal_System" />
       <extension name="coverage">
         <pattern>
@@ -132,14 +93,46 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="criminal.dao.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="criminal.dao.jdbc.JDBCCriminalCaseDAOTest" />
+      <option name="MAIN_CLASS_NAME" value="criminal.dao.jdbc.JDBCDetectiveDAOTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCDetectiveDAOTest.getById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Criminal_System" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="criminal.dao.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="criminal.dao.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="criminal.dao.jdbc.JDBCDetectiveDAOTest" />
+      <option name="METHOD_NAME" value="getById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCDetectiveDAOTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Criminal_System" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="criminal.dao.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="criminal.dao.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="criminal.dao.jdbc.JDBCDetectiveDAOTest" />
       <option name="METHOD_NAME" value="save" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDBCCriminalCaseDAOTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JDBCDetectiveDAOTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Criminal_System" />
       <extension name="coverage">
         <pattern>
@@ -148,7 +141,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="criminal.dao.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="criminal.dao.jdbc.JDBCCriminalCaseDAOTest" />
+      <option name="MAIN_CLASS_NAME" value="criminal.dao.jdbc.JDBCDetectiveDAOTest" />
       <option name="METHOD_NAME" value="update" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -157,10 +150,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JDBCCriminalCaseDAOTest" />
-        <item itemvalue="JUnit.JDBCCriminalCaseDAOTest.update" />
-        <item itemvalue="JUnit.JDBCCriminalCaseDAOTest.save" />
-        <item itemvalue="JUnit.JDBCCriminalCaseDAOTest.delete" />
+        <item itemvalue="JUnit.JDBCDetectiveDAOTest.update" />
+        <item itemvalue="JUnit.JDBCDetectiveDAOTest.delete" />
+        <item itemvalue="JUnit.JDBCDetectiveDAOTest.save" />
+        <item itemvalue="JUnit.JDBCDetectiveDAOTest.getById" />
         <item itemvalue="JUnit.JDBCCriminalCaseDAOTest.getById" />
       </list>
     </recent_temporary>
@@ -189,6 +182,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Criminal_System$JDBCCriminalCaseDAOTest_save.ic" NAME="JDBCCriminalCaseDAOTest.save Coverage Results" MODIFIED="1655059215177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>criminal.dao.jdbc.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Criminal_System$JDBCDetectiveDAOTest_getById.ic" NAME="JDBCDetectiveDAOTest.getById Coverage Results" MODIFIED="1655132899044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>criminal.dao.jdbc.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Criminal_System$JDBCCriminalCaseDAOTest.ic" NAME="JDBCCriminalCaseDAOTest Coverage Results" MODIFIED="1655060012681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

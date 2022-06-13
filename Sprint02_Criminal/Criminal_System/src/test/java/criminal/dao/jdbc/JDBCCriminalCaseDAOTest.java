@@ -23,7 +23,7 @@ class JDBCCriminalCaseDAOTest {
         List<CriminalCase> criminalCaseList = criminalCaseDAO.getAll();
 
         //A3: Assert
-        System.out.format("%-15s %-15s %-15s %-15s %-15s %-25s %-45s %-15s %-15s %-15s %-15s %-20s %-15s\n",
+        System.out.format("%-15s %-15s %-15s %-15s %-15s %-45s %-85s %-15s %-15s %-15s %-15s %-20s %-15s\n",
                 "id", "version", "createdAt", "modifiedAt", "number", "shortDescription", "detailedDescription",
                 "notes", "type", "status", "evidenceSet", "leadInvestigator", "assigned");
         for(CriminalCase criminalCase : criminalCaseList){
