@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -85,5 +86,16 @@ class JDBCDetectiveDAOTest {
 
 
 
+    }
+
+    @Test
+    void test() throws Exception {
+        try{
+            System.out.println("1");
+        }catch (Exception ex){
+            System.out.println(ex);
+        }finally{
+            System.out.println("2");
+        }
     }
 }

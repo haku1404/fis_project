@@ -36,4 +36,8 @@ public class CriminalCaseDAO implements ICriminalCaseDAO {
 
     }
 
+    @Override
+    public ArrayList<CriminalCase> search(int version) {
+        return null;
+    }
 }

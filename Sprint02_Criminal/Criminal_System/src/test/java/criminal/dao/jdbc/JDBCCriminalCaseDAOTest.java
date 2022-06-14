@@ -87,4 +87,17 @@ class JDBCCriminalCaseDAOTest {
         criminalCase.setVersion(4);
 
     }
+
+    @Test
+    void search(){
+        ICriminalCaseDAO criminalCaseDAO = new JDBCCriminalCaseDAO();
+
+        List<CriminalCase> criminalCaseList = criminalCaseDAO.search(1);
+
+        for(CriminalCase criminalCase : criminalCaseList){
+            System.out.println(criminalCase);
+        };
+
+
+    }
 }
