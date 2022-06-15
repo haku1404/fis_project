@@ -5,83 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c734f0f2-1de3-4f27-a6e7-d4f0d5facd18" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Sprint01_Criminal/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/data/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/data/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/dao/ICriminalCaseDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/dao/IDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/dao/IDetectiveDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/dao/IEvidenceDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/dao/jdbc/DatabaseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/dao/jdbc/DatabaseUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/dao/jdbc/JDBCCriminalCaseDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/dao/jdbc/JDBCDetectiveDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/dao/mem/CriminalCaseDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/dao/mem/DetectiveDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/dao/mem/EvidenceDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/model/CriminalCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/model/Detective.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/model/Evidence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/model/NumberGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/model/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/model/TrackEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/model/enums/CaseStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/model/enums/CaseType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/model/enums/EmploymentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/model/enums/Rank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/java/criminal/model/enums/TrackAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/resources/datasource.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/main/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/test/java/criminal/dao/jdbc/JDBCCriminalCaseDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/test/java/criminal/dao/mem/CriminalCaseDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/test/resources/datasource.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Criminal_Evidence_Management_System/src/test/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/data/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/data/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/ICriminalCaseDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/IDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/IDetectiveDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/IEvidenceDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/jdbc/DBContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/jdbc/DatabaseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/jdbc/DatabaseUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/jdbc/JDBCCriminalCaseDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/jdbc/JDBCDetectiveDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/memory/CriminalCaseDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/memory/DetectiveDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/memory/EvidenceDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/model/CriminalCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/model/Detective.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/model/Evidence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/model/NumberGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/model/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/model/TrackEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/model/enums/CaseStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/model/enums/CaseType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/model/enums/EmploymentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/model/enums/Rank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/criminal/model/enums/TrackAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/criminal/dao/jdbc/JDBCCriminalCaseDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/criminal/dao/memory/CriminalCaseDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/datasource.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Topic 03/Mini_Exercise02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Topic 03/Mini_Exercise02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/criminal/dao/jdbc/JDBCCriminalCaseDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/criminal/dao/jdbc/JDBCCriminalCaseDAOTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,17 +33,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "D:/Desktop/FIS/fis_project/Sprint02_Criminal/Criminal_System/src/test/resources",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Desktop/FIS/fis_project/Sprint02_Criminal/Criminal_System/src/test/resources&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Desktop\FIS\fis_project\Sprint02_Criminal\Criminal_System\src\test\resources" />
