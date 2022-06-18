@@ -23,13 +23,17 @@ class JDBCCriminalCaseDAOTest {
         List<CriminalCase> criminalCaseList = criminalCaseDAO.getAll();
 
         //A3: Assert
-        System.out.format("%-15s %-15s %-15s %-15s %-15s %-45s %-85s %-15s %-15s %-15s %-15s %-20s %-15s\n",
-                "id", "version", "createdAt", "modifiedAt", "number", "shortDescription", "detailedDescription",
-                "notes", "type", "status", "evidenceSet", "leadInvestigator", "assigned");
+       printHeader();
         for(CriminalCase criminalCase : criminalCaseList){
             System.out.println(criminalCase);
         }
 
+    }
+
+    public void printHeader(){
+        System.out.format("%-15s %-15s %-15s %-15s %-15s %-45s %-85s %-15s %-15s %-15s %-15s %-20s %-15s\n",
+                "id", "version", "createdAt", "modifiedAt", "number", "shortDescription", "detailedDescription",
+                "notes", "type", "status", "evidenceSet", "leadInvestigator", "assigned");
     }
 
     @Test
@@ -92,8 +96,9 @@ class JDBCCriminalCaseDAOTest {
     void search(){
         ICriminalCaseDAO criminalCaseDAO = new JDBCCriminalCaseDAO();
 
-        List<CriminalCase> criminalCaseList = criminalCaseDAO.search(1);
+        List<CriminalCase> criminalCaseList = criminalCaseDAO.search(3);
 
+        printHeader();
         for(CriminalCase criminalCase : criminalCaseList){
             System.out.println(criminalCase);
         };

@@ -6,17 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c734f0f2-1de3-4f27-a6e7-d4f0d5facd18" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/criminal/dao/ICriminalCaseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/ICriminalCaseDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/criminal/dao/IDetectiveDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/IDetectiveDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/criminal/dao/jdbc/JDBCCriminalCaseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/jdbc/JDBCCriminalCaseDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/criminal/dao/memory/CriminalCaseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/criminal/dao/memory/CriminalCaseDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/criminal/dao/jdbc/JDBCCriminalCaseDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/criminal/dao/jdbc/JDBCCriminalCaseDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/criminal/dao/jdbc/JDBCDetectiveDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/criminal/dao/jdbc/JDBCDetectiveDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/criminal/dao/ICriminalCaseDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/criminal/dao/ICriminalCaseDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/criminal/dao/jdbc/JDBCCriminalCaseDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/criminal/dao/jdbc/JDBCCriminalCaseDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/criminal/dao/memory/CriminalCaseDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/criminal/dao/memory/CriminalCaseDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/criminal/dao/jdbc/JDBCCriminalCaseDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/criminal/dao/jdbc/JDBCCriminalCaseDAOTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/criminal/dao/jdbc/JDBCDetectiveDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/criminal/dao/jdbc/JDBCDetectiveDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/log4j.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,17 +36,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Desktop/FIS/fis_project/Sprint02_Criminal/Criminal_System&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "D:/Desktop/FIS/Spring Boot/criminal-system-management/criminal-system-management",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Desktop\FIS\fis_project\Sprint02_Criminal\Criminal_System\src\test\resources" />
