@@ -66,7 +66,6 @@ class JDBCCriminalCaseDAOTest {
 
         CriminalCase criminalCase = criminalCaseDAO.getById(5);
 
-
         assertEquals(5, criminalCase.getId());
     }
 

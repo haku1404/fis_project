@@ -5,44 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c734f0f2-1de3-4f27-a6e7-d4f0d5facd18" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/data/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/data/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/core/CaseStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/core/CaseType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/core/EmploymentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/core/Rank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/core/TrackAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/model/AbstractEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/model/CriminalCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/model/Detective.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/model/Evidence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/model/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/model/TrackEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/repository/AbstractRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/repository/CriminalCaseRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/repository/DetectiveRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/repository/EvidenceRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/repository/PersonRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/repository/StorageRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/repository/TrackEntryRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/repository/jdbc/JdbcAbstractRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/repository/jdbc/JdbcCriminalCaseRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/repository/jdbc/JdbcDetectiveRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/repository/jdbc/JdbcEvidenceRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/repository/jdbc/JdbcPersonRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/repository/jdbc/JdbcStorageRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/java/criminal/repository/jdbc/JdbcTrackEntryRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sprint03_Criminal/Criminal_System_JPA_n_JDBC/src/test/java/org/example/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,17 +31,9 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "D:/Desktop/FIS/fis_project/Sprint02_Criminal/Criminal_System",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Desktop\FIS\fis_project\Sprint02_Criminal\Criminal_System\src\test\resources" />
