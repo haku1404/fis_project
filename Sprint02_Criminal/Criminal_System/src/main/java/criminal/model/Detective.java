@@ -165,23 +165,9 @@ public class Detective {
 
     @Override
     public String toString() {
-        return "Detective{" +
-                "id=" + id +
-                ", version=" + version +
-                ", createdAt=" + createdAt +
-                ", modifiedAt=" + modifiedAt +
-                ", hiringDate=" + hiringDate +
-                ", username='" + username + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", password='" + password + '\'' +
-                ", badgeNumber='" + badgeNumber + '\'' +
-                ", rank=" + rank +
-                ", armed=" + armed +
-                ", status=" + status +
-                ", criminalCases=" + criminalCases +
-                ", trackEntries=" + trackEntries +
-                '}';
+        return String.format("%-15s %-15s %-25s %-25s %-25s %-15s %-15s %-15s %-15s %-15s %-15s %-15s %-15s %-15s %-15s",
+                id, version, createdAt, modifiedAt, hiringDate, username, firstName, lastName, password, badgeNumber
+                ,rank, armed, status, criminalCases, trackEntries);
     }
 
     @Override

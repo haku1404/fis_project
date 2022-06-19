@@ -32,7 +32,8 @@ public class DetectiveDAO implements IDetectiveDAO {
     }
 
     @Override
-    public void delete(Detective detective) {
+    public void delete(long id) {
 
     }
+
 }

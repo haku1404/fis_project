@@ -18,5 +18,5 @@ public interface IDAO<T> {
     void update(T t);
 
     //DELETE
-    void delete(T t);
+    void delete(long id);
 }

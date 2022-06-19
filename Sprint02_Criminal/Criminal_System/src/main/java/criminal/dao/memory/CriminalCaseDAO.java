@@ -37,7 +37,7 @@ public class CriminalCaseDAO implements ICriminalCaseDAO {
     }
 
     @Override
-    public void delete(CriminalCase criminalCase) {
-
+    public ArrayList<CriminalCase> search(int version) {
+        return null;
     }
 }

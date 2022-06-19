@@ -158,7 +158,7 @@ public class CriminalCase {
 
     @Override
     public String toString() {
-        return String.format("%-15s %-15s %-15s %-15s %-15s %-25s %-45s %-15s %-15s %-15s %-15s %-20s %-15s",
+        return String.format("%-15s %-15s %-15s %-15s %-15s %-45s %-85s %-15s %-15s %-15s %-15s %-20s %-15s",
                 id, version, createdAt, modifiedAt, number, shortDescription, detailedDescription, notes, type, status,
                 evidenceSet, leadInvestigator, assigned);
     }

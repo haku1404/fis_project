@@ -97,7 +97,7 @@
     <logger name="com.log4j.NoAppenderExample"/>
 
     <root>
-        <level value="INFO"/>
+        <level value="DEBUG"/>
         <appender-ref ref="stdout"/>
         <!--        <appender-ref ref="fout"/>-->
     </root>

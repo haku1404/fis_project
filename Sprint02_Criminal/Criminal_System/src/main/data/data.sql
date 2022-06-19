@@ -1,0 +1,1 @@
+INSERT INTO `evidencedb`.`detective` (`id`, `version`, `createdAt`, `modifiedAt`, `username`, `firstName`, `lastName`, `password`, `hiringDate`, `badgeNumber`, `armed`) VALUES ('1', '1', '2022-06-12 22:26:53', '2022-06-12 22:26:53', 'dec01', 'Peter', 'Parker', 'spiderman', '2022-06-12 22:26:53', 'B01', '1');
