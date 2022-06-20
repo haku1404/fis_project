@@ -27,37 +27,47 @@ public class JdbcDetectiveRepo extends JdbcAbstractRepo<Detective>
 
     @Override
     public Optional<Detective> findById(Long id) {
-        String sql = "select d.ID, d.BADGE_NUMBER, d.RANK, d.ARMED, d.STATUS,d.PERSON_ID, " +
-                "p.USERNAME, p.FIRSTNAME, p.LASTNAME, p.HIRINGDATE "+
-                "from DETECTIVE d, PERSON p where d.ID= ? and d.PERSON_ID=p.ID";
+        String sql = "select ID, VERSION, CREATED_AT, MODIFIED_AT, HIRING_DATE, USERNAME, FIRST_NAME, LAST_NAME," +
+                " PASSWORD, RANK1, BADGE_NUMBER, ARMED, STATUS, CRIMINAL_CASE_ID, TRACK_ENTRY_ID from DETECTIVE" +
+                " where ID= ?";
         return Optional.of(jdbcTemplate.queryForObject(sql, rowMapper, id));
     }
 
     @Override
     public Optional<Detective> findByBadgeNumber(String badgeNumber) {
-        String sql = "select ID, BADGE_NUMBER, RANK, ARMED, STATUS,PERSON_ID from DETECTIVE where BADGE_NUMBER= ?";
+        String sql = "select ID, VERSION, CREATED_AT, MODIFIED_AT, HIRING_DATE, USERNAME, FIRST_NAME, LAST_NAME," +
+                " PASSWORD, RANK1, BADGE_NUMBER, ARMED, STATUS, CRIMINAL_CASE_ID, TRACK_ENTRY_ID from DETECTIVE" +
+                " where BADGE_NUMBER like '%?1%'";
         Detective detective = jdbcTemplate.queryForObject(sql, rowMapper, badgeNumber);
-        return detective == null ? Optional.empty() : Optional.of(detective);
+        return Optional.of(detective);
     }
 
     @Override
     public void save(Detective detective) {
         jdbcTemplate.update(
-                "insert into DETECTIVE(ID, BADGE_NUMBER, RANK, ARMED, STATUS) values(?,?,?,?,?)",
-                detective.getId(), detective.getBadgeNumber(), detective.getRank(),
-                                    detective.getStatus()
+                "insert into DETECTIVE(ID, VERSION, CREATED_AT, MODIFIED_AT, HIRING_DATE, USERNAME, FIRST_NAME," +
+                        " LAST_NAME, PASSWORD, BADGE_NUMBER, ARMED, STATUS, CRIMINAL_CASE_ID, TRACK_ENTRY_ID)" +
+                        " values(?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                detective.getId(), detective.getVersion(), detective.getCreatedAt(), detective.getModifiedAt(),
+                detective.getHiringDate(), detective.getUsername(), detective.getFirstName(),
+                detective.getLastName(), detective.getPassword(), detective.getBadgeNumber(),
+                detective.getArmed(), detective.getStatus(), detective.getCriminalCases(), detective.getTrackEntries()
         );
     }
 
     @Override
     public Set<Detective> findAll() {
-        String sql = "select ID, BADGE_NUMBER, RANK, ARMED, STATUS,PERSON_ID from DETECTIVE";
+//        String sql = "select ID, VERSION, CREATED_AT, MODIFIED_AT, HIRING_DATE, USERNAME, FIRST_NAME, LAST_NAME," +
+//                " PASSWORD, RANK1, BADGE_NUMBER, ARMED, STATUS, CRIMINAL_CASE_ID, TRACK_ENTRY_ID from DETECTIVE";
+        String sql = "select * from detective";
         return new HashSet<>(jdbcTemplate.query(sql, rowMapper));
     }
 
     @Override
-    public Set<Detective> findbyRank(Rank rank) {
-        String sql = "select ID, BADGE_NUMBER, RANK, ARMED, STATUS,PERSON_ID from DETECTIVE where RANK= ?";
+    public Set<Detective> findbyRank(String rank) {
+        String sql = "select ID, VERSION, CREATED_AT, MODIFIED_AT, HIRING_DATE, USERNAME, FIRST_NAME, LAST_NAME, " +
+                "PASSWORD, RANK1, BADGE_NUMBER, ARMED, STATUS, CRIMINAL_CASE_ID, TRACK_ENTRY_ID from DETECTIVE " +
+                "where RANK1 like '%?1%'";
         return new HashSet<>(jdbcTemplate.query(sql, rowMapper, rank));
     }
 

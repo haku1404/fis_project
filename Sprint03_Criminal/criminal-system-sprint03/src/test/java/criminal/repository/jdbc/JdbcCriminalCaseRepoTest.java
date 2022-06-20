@@ -1,6 +1,8 @@
 package criminal.repository.jdbc;
 
+import criminal.model.entity.Detective;
 import criminal.repository.CriminalCaseRepo;
+import criminal.repository.DetectiveRepo;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -10,6 +12,7 @@ class JdbcCriminalCaseRepoTest {
 
     @Autowired
     private CriminalCaseRepo criminalCaseRepo;
+    private DetectiveRepo detectiveRepo;
     @Test
     void findById() {
         printHeader();
@@ -24,6 +27,8 @@ class JdbcCriminalCaseRepoTest {
 
     @Test
     void findByLeadInvestigator() {
+        Detective detective = detectiveRepo.findById(3L).get();
+        System.out.println(criminalCaseRepo.findByLeadInvestigator(detective));
     }
 
     @Test
