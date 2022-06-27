@@ -5,7 +5,7 @@ import java.util.Optional;
 
 public interface AbstractService<T> {
 
-    T create(T entity);
+    T create(T entity) throws Exception;
 
     T update(T entity);
 
