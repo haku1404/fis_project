@@ -17,6 +17,7 @@ import java.util.Set;
 @ToString
 @EqualsAndHashCode
 @Entity
+@Builder
 public class Detective {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

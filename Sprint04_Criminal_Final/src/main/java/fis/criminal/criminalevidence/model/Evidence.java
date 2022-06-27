@@ -15,6 +15,7 @@ import java.util.Set;
 @ToString
 @EqualsAndHashCode
 @Entity
+@Builder
 public class Evidence {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

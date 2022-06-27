@@ -18,6 +18,7 @@ import java.util.Set;
 @NoArgsConstructor
 @ToString
 @EqualsAndHashCode
+@Builder
 public class CriminalCase {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
