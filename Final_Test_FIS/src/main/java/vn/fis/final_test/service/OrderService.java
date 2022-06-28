@@ -8,7 +8,7 @@ import vn.fis.final_test.model.Order;
 public interface OrderService {
     Page<OrderDTO> findAll(Pageable pageable);
 
-    OrderDTO findById(Long orderId);
+    Order findById(Long orderId);
 
     Order create(CreateOrderDTO createOrderItemDTO);
 
@@ -18,9 +18,9 @@ public interface OrderService {
 
     Order removeOrderItem(RemoveItemDTO removeItemDTO);
 
-    Order paid(Long orderId);
+    OrderDTO paid(Long orderId);
 
-    Order cancel(Long orderId);
+    OrderDTO cancel(Long orderId);
 
 
 

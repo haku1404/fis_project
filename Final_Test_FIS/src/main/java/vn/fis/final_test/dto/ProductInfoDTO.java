@@ -8,8 +8,7 @@ import lombok.*;
 @NoArgsConstructor
 @Builder
 @ToString
-public class RemoveItemDTO {
-    private Long orderId;
-    private Long orderItemId;
-
+public class ProductInfoDTO {
+    private Long productId;
+    private Long quantity;
 }
