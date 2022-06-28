@@ -6,10 +6,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import vn.fis.final_test.dto.CreateCustomerDTO;
 import vn.fis.final_test.dto.CustomerDTO;
-import vn.fis.final_test.exception.CustomerNotFoundException;
-import vn.fis.final_test.exception.MobileExistedException;
 import vn.fis.final_test.model.Customer;
-import vn.fis.final_test.repository.CustomerRepo;
 import vn.fis.final_test.service.CustomerService;
 
 @Service
