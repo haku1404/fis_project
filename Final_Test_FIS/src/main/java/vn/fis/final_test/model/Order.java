@@ -8,19 +8,20 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @Entity
-@Table(name = "tbl_orders")
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
 @Builder
 @ToString
+@EqualsAndHashCode
+@Table(name = "tbl_order")
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "order_datetime_create", nullable = false)
+    @Column(name = "order_datetime", nullable = false)
     private LocalDateTime orderDateTime;
 
     @ManyToOne(fetch = FetchType.LAZY)
